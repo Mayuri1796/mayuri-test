@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1440px) {
+  .banner {
+    height: 300px;
+  }
+  .slider .carousel-caption {
+    /* bottom: 30%;*/
+    display: block !important;
+  }
+
+  .slider .carousel-caption h5 {
+    margin-top: 0px;
+    margin-left: -34px;
+    font-size: 24px;
+  }
+
+  .slider .carousel-caption p {
+    font-size: 9px;
+    margin-left: -34px;
+  }
+  .slider .carousel-indicators {
+    display: none;
+
+    right: -55%;
+  }
+  #sidebar {
+    /* width: 50%; */
+    left: -50%;
+    height: 50%;
+    top: 27%;
+    padding: 26px 30px;
+  }
+  #sidebar li {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .flex-item-right,
+  .flex-item-left {
+    flex: 100%;
+  }
+  .welcome h2 {
+    font-size: 21px;
+    padding-top: 10px;
+  }
+  .welcome-img img {
+    margin-top: 20px;
+  }
+  .second-div {
+    padding: 20px 0px;
+  }
+  .culture {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .culture h4 {
+    font-size: 20px;
+  }
+  .para {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .flex-para {
+    padding-left: 0px;
+  }
+  .flex-button {
+    padding-bottom: 20px;
+    padding-left: 0px;
+  }
+  .flex-item-left {
+    padding-bottom: 90px;
+  }
+  .flex-item-center {
+    padding-bottom: 88px;
+  }
+
+  .nature img {
+    padding-bottom: 25px;
+  }
+  .head {
+    top: 38%;
+  }
+  .head1 {
+    top: 41%;
+  }
+  .head2 {
+    top: 15%;
+  }
+  .explore {
+    padding-top: 45px;
+  }
+  hr.line1 {
+    width: 30%;
+    margin-left: 0px;
+  }
+  .explore h6 {
+    padding-left: 27px;
+  }
+}

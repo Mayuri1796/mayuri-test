@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Website using Bootstrap 4</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/carousel.min.css" />
+  </head>
+  <body>
+    <section class="slider">
+      <div class="logo-div">
+        <div class="logo">
+          <img src="./img/logo.png" width="100px" alt="" />
+        </div>
+        <div class="toggle-btn" onclick="togglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div id="sidebar">
+          <ul>
+            <li>
+              <i class="fa fa-home"></i><span class="link_name">Home</span>
+            </li>
+            <li>
+              <i class="fa fa-user"></i><span class="link_name">About</span>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i
+              ><span class="link_name">Contact</span>
+            </li>
+          </ul>
+        </div>
+        <div class="search">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-search"></i>
+        </div>
+      </div>
+
+      <div id="banner-slider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#banner-slider" data-slide-to="0" class="active">
+            <img class="d-block w-100" src="./img/banner1.jpg" alt="" />
+          </li>
+          <li data-target="#banner-slider" data-slide-to="1">
+            <img class="d-block w-100" src="./img/banner2.jpg" alt="" />
+          </li>
+          <li data-target="#banner-slider" data-slide-to="2">
+            <img class="d-block w-100" src="./img/banner3.jpg" alt="" />
+          </li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="banner"
+              style="background-image: url('./img/banner1.jpg')"
+            ></div>
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <div class="row text-left">
+                  <div class="col-md-9">
+                    <h5>Discover the Real DC</h5>
+                    <p>
+                      Awe-inspiring, heart-thumping, Mind-changing, Discover
+                      something new and you'll <br />feel alive, too.
+                    </p>
+                    <button class="banner-button">
+                      <b>See more </b> <i class="fa fa-angle-right"></i></button
+                    ><br />
+                  </div>
+                </div>
+              </div>
+              <div class="container arrow">
+                <div class="row">
+                  <div class="col-md-2">
+                    <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+                  </div>
+                  <!-- <div class="col-md-2">
+                    <i class="fa fa-star"></i>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div
+              class="banner"
+              style="background-image: url('./img/banner2.jpg')"
+            ></div>
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <div class="row text-left">
+                  <div class="col-md-9">
+                    <h5>Discover the Real DC</h5>
+                    <p>
+                      Awe-inspiring, heart-thumping, Mind-changing, Discover
+                      something new and you'll <br />feel alive, too.
+                    </p>
+                    <button class="banner-button">
+                      <b>See more </b> <i class="fa fa-angle-right"></i>
+                    </button>
+                  </div>
+                  <!-- <div class="col-md-2">
+                    <i class="fa fa-star"></i>
+                  </div> -->
+                </div>
+              </div>
+              <div class="container arrow">
+                <div class="row">
+                  <div class="col-md-2">
+                    <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+                  </div>
+                  <!-- <div class="col-md-2">
+                    <i class="fa fa-star"></i>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="banner"
+              style="background-image: url('./img/banner3.jpg')"
+            ></div>
+            <div class="carousel-caption d-none d-md-block">
+              <div class="container">
+                <div class="row text-left">
+                  <div class="col-md-9">
+                    <h5>Discover the Real DC</h5>
+                    <p>
+                      Awe-inspiring, heart-thumping, Mind-changing, Discover
+                      something new and you'll <br />
+                      feel alive, too.
+                    </p>
+                    <button class="banner-button">
+                      <b>See more </b><i class="fa fa-angle-right"></i>
+                    </button>
+                  </div>
+                  <div class="col-md-3"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="arrow">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <i
+                        class="fa fa-arrow-circle-o-down"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <!-- <div class="col-md-2">
+                      <i class="fa fa-star"></i>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="vl"></div> -->
+    <section class="firstdiv">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="welcome">
+              <h6>
+                <i class="fa fa-university" aria-hidden="true"></i> Welcome to
+                Washington DC
+              </h6>
+              <h2>You can find all the best things to do right here in DC!</h2>
+              <p class="pt-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in quam interdum, volutpat velit at, tempus sem. Proin
+                imperdiet, mi ut ultricies maximus, purus dui fringilla leo,
+                vitae varius ipsum dui vel arcu. Orci varius natoque penatibus
+                et magnis dis parturient montes, nascetur ridiculus mus. Nunc
+                vulputate metus magna, eget dictum risus interdum et. Aliquam
+                tincidunt orci ex, ac condimentum ipsum interdum nec. Aenean sit
+                amet euismod diam.
+              </p>
+              <button class="plan">start planning</button>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="welcome-img">
+              <img src="./img/welcome-img.jpg" width="100%" alt="" />
+              <div class="insta">
+                <h6><i class="fa fa-instagram"></i> The Hay Adams</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-div">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="local text-left">
+              <h3>
+                <b>Locally experience the local hangouts locals love</b>
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="see text-right">
+              <button class="plan">See more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container pb-5">
+        <div class="flex-container">
+          <div class="flex-item-left">
+            <img src="./img/img2.jpg" width="100%" alt="" />
+            <div class="head">
+              <h5><b>20+ Rooftop bars & Restaurants to check out</b></h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in quam interdum, volutpat velit at, tempus sem. Proin
+                imperdiet, mi ut ultricies maximus
+              </p>
+            </div>
+          </div>
+          <div class="flex-item-center">
+            <img src="./img/img1.jpg" width="100%" alt="" />
+            <div class="head1">
+              <h5><b>Guide to dining at Michelin-Starred Restaurants</b></h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in quam interdum, volutpat velit at, tempus sem. Proin
+                imperdiet, mi ut ultricies maximus
+              </p>
+            </div>
+          </div>
+          <div class="flex-item-right">
+            <img src="./img/img3.jpg" width="100%" alt="" />
+            <div class="head2">
+              <h5>
+                <b>
+                  Discover the area's best local brewerries, distelleries &
+                  winneries</b
+                >
+              </h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in quam interdum, volutpat velit at, tempus sem. Proin
+                imperdiet, mi ut ultricies maximus
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slider2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="./img/slider-img.jpg" alt="" />
+                <div class="img-head">
+                  <h6>Elephants & US: Considering Extinction</h6>
+                  <p>Sponsored</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./img/slider-img1.jpg" alt="" />
+                <div class="img-head">
+                  <h6>Elephants & US: Considering Extinction</h6>
+                  <p>Sponsored</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./img/slider-img.jpg" alt="" />
+                <div class="img-head">
+                  <h6>Elephants & US: Considering Extinction</h6>
+                  <p>Sponsored</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./img/slider-img1.jpg" alt="" />
+                <div class="img-head">
+                  <h6>Elephants & US: Considering Extinction</h6>
+                  <p>Sponsored</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./img/slider-img.jpg" alt="" />
+                <div class="img-head">
+                  <h6>Elephants & US: Considering Extinction</h6>
+                  <p>Sponsored</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./img/slider-img1.jpg" alt="" />
+                <div class="img-head">
+                  <h6>Elephants & US: Considering Extinction</h6>
+                  <p>Sponsored</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="events">
+              <i class="fa fa-camera"></i>
+              <h6>Featured Events</h6>
+              <div class="explore1">
+                <hr class="line1" />
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <h5>Here's what's going on in Washington, DC</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                in quam interdum, volutpat velit at, tempus sem. Proin
+                imperdiet, mi ut ultricies maximus
+              </p>
+
+              <!-- <div class="owl-button">
+                <button type="button" role="presentation" class="owl-prev">
+                  <span aria-label="Previous">‹</span></button
+                ><button type="button" role="presentation" class="owl-next">
+                  <span aria-label="Next">›</span>
+                </button>
+              </div> -->
+              <button class="plan event-btn">
+                <b>View All Events <i class="fa fa-angle-right"></i></b>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="explore">
+          <i
+            class="fa fa-binoculars"
+            aria-hidden="true"
+            style="color: #7f075d"
+          ></i>
+          <h6>Get Exploring</h6>
+          <div class="explore1">
+            <hr class="line1" />
+            <i class="fa fa-star" aria-hidden="true"></i>
+          </div>
+        </div>
+        <br /><br />
+        <div class="culture">
+          <h4>
+            <b>
+              From concerts and cultural events to American history, free
+              attractions and so much more.</b
+            >
+          </h4>
+        </div>
+        <div class="para">
+          <div class="flex-para">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
+              quam interdum, volutpat velit at, tempus sem. Proin imperdiet, mi
+              ut ultricies maximus
+            </p>
+          </div>
+          <div class="flex-button">
+            <button class="plan">So much more</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="nature">
+              <img src="./img/nature.jpg" alt="" />
+              <!-- <h6 class="text-uppercase text-center">Sponsored</h6> -->
+              <div class="text">
+                <div class="cool">
+                  <i class="fa fa-camera" aria-hidden="true"></i>
+                  <h6>Cool Crowd</h6>
+                </div>
+                <div class="explore1">
+                  <hr class="line" />
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <br />
+                <br />
+                <p>19 Adventures and fun date ideas</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 nature-div">
+            <div class="row">
+              <div class="col-md-6">
+                <img src="./img/nature1.jpg" width="100%" alt="" />
+                <i class="fa fa-camera" aria-hidden="true"></i>
+                <h6>Family Travelers</h6>
+                <h5>
+                  Free things to do:<br />
+                  Family Friendly
+                </h5>
+              </div>
+              <div class="col-md-6">
+                <img src="./img/nature2.jpg" width="100%" alt="" />
+                <i class="fa fa-leaf" aria-hidden="true"></i>
+                <h6>Eletic Cultural Travelers</h6>
+                <h5>15 ways to embrace spring colors Family Friendly</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="./img/nature3.jpg" width="100%" alt="" />
+                <i class="fa fa-pagelines" aria-hidden="true"></i>
+                <h6>Parks</h6>
+                <h5>13 things to see & do in Dupont Circle</h5>
+              </div>
+              <div class="col-md-6">
+                <img src="./img/nature4.jpg" width="100%" alt="" />
+                <i class="fa fa-leaf" aria-hidden="true"></i>
+                <h6>Historophiles</h6>
+                <h5>Exploric historic Old town Alexandaria</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function togglemenu() {
+        document.getElementById("sidebar").classList.toggle("active");
+      }
+
+      // banner slider
+      $(".carousel").carousel({
+        interval: 5000,
+      });
+      // banner slider ends
+
+      // product slider
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
